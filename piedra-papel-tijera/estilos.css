@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background: #f2eafa;
+  color: #382344;
+}
+
+.juego {
+  width: min(600px, 100%);
+  padding: 30px;
+  text-align: center;
+  background: white;
+  border-radius: 18px;
+  box-shadow: 0 5px 20px #39234420;
+}
+
+h1 {
+  color: #654080;
+}
+
+.opciones {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 25px 0;
+}
+
+.opcion,
+.reiniciar {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 10px;
+  background: #654080;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.opcion:hover,
+.reiniciar:hover {
+  background: #80549c;
+  transform: translateY(-2px);
+}
+
+.resultado {
+  padding: 15px;
+  border-radius: 12px;
+  background: #f8f1fc;
+}
+
+#mensaje {
+  color: #654080;
+}
+
+.marcador {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  font-weight: bold;
+}
+
+.reiniciar {
+  margin-top: 12px;
+  background: #a45c8b;
+}
+
+@media (max-width: 450px) {
+  .juego {
+    padding: 20px;
+  }
+
+  .opciones {
+    flex-direction: column;
+  }
+}

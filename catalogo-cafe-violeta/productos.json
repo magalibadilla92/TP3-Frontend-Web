@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "nombre": "Café espresso",
+    "categoria": "Café",
+    "precio": 1800,
+    "stock": 10,
+    "imagen": "https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=500",
+    "descripcion": "Café espresso intenso y aromático."
+  },
+  {
+    "id": 2,
+    "nombre": "Capuccino",
+    "categoria": "Café",
+    "precio": 2500,
+    "stock": 8,
+    "imagen": "https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?w=500",
+    "descripcion": "Café con leche espumosa."
+  },
+  {
+    "id": 3,
+    "nombre": "Medialunas",
+    "categoria": "Panadería",
+    "precio": 1200,
+    "stock": 12,
+    "imagen": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=500",
+    "descripcion": "Medialunas dulces recién horneadas."
+  },
+  {
+    "id": 4,
+    "nombre": "Porción de torta",
+    "categoria": "Pastelería",
+    "precio": 3200,
+    "stock": 5,
+    "imagen": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=500",
+    "descripcion": "Porción de torta de chocolate."
+  },
+  {
+    "id": 5,
+    "nombre": "Té en hebras",
+    "categoria": "Infusiones",
+    "precio": 1600,
+    "stock": 7,
+    "imagen": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=500",
+    "descripcion": "Té caliente para disfrutar una pausa."
+  },
+  {
+    "id": 6,
+    "nombre": "Cookie de chocolate",
+    "categoria": "Pastelería",
+    "precio": 1400,
+    "stock": 9,
+    "imagen": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=500",
+    "descripcion": "Cookie crocante con chips de chocolate."
+  }
+]
